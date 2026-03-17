@@ -14,8 +14,8 @@ Protótipo de robô de combate desenvolvido com Arduino (C/C++). O sistema integ
 - Módulo Bluetooth (HC-05/HC-06)
 
 # Funcionamento do código
-O código principal (`robo_combate.ino`) gerencia:
+O código gerencia:
 1. A leitura dos comandos via Serial (Bluetooth).
-2. O movimento dos motores através da biblioteca `AFMotor`.
-3. A movimentação constante da arma sem interromper os outros comandos, utilizando a função `millis()` em vez de `delay()`.
+2. O movimento dos motores através da biblioteca AFMotor.
+3. A movimentação constante da arma sem interromper os outros comandos, utilizando a função millis() em vez de delay().
 
